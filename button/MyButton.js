@@ -29,11 +29,13 @@ const styles = StyleSheet.create({
     width: 50, // Ajustez la largeur de l'icône en conséquence
     height: 50, // Ajustez la hauteur de l'icône en conséquence
     marginRight: 10, // Marge à droite de l'icône pour séparer du texte
+    marginLeft: '20px',
+
   },
   icon2: {
     width: 50, // Ajustez la largeur de l'icône en conséquence
     height: 50, // Ajustez la hauteur de l'icône en conséquence
-    marginRight: 10, // Marge à droite de l'icône pour séparer du texte
+    marginRight: "1%", // Marge à droite de l'icône pour séparer du texte
   },
   buttonText: {
     color: 'white', 

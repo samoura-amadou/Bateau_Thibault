@@ -85,9 +85,11 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 20,
-    fontWeight: 'bold',
     color: 'black',
     justifyContent: 'center',
+    fontFamily: 'italic',
+    fontStyle: 'italic',
+    color:'white'
   },
   imageBackground: {
     flex: 1,

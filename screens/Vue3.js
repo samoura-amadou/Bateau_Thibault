@@ -36,7 +36,7 @@ const Vue2 = ({ navigation }) => {
     >
       <View style={styles.container}>
         <View style={styles.imageContainer}>
-            <Text style={styles.styletext1}>Nos bateau partenaires</Text>
+            <Text style={styles.styletext1}>Nos bateaux partenaires</Text>
             <Text style={styles.styletext2}>06.63.99.99.78</Text>
             <Text style={styles.styletext2}>lebateaudethibault@gmail.com</Text>
             <Text style={styles.styletext2}>www.facebook/lebateaudethibault</Text>
