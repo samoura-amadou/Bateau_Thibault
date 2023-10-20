@@ -284,7 +284,7 @@ const Vue0 = ({ navigation }) => {
 
         <View style={styles.button1}>
         <MyButton1
-          label="Vue5"
+          label="Produits et promotions"
           iconSource={require('../assets/images/poisson.png')}
           onPress={handlePress0}
           style={[styles.button1]}
@@ -293,14 +293,14 @@ const Vue0 = ({ navigation }) => {
 
         <View style={styles.buttonGroup}>
         <MyButton
-          label="Vue2"
+          label="Bateaux"
           iconSource={require('../assets/images/ancre.png')}
           onPress={handlePress2}
           style={styles.buttonSpacing}
         />
 
         <MyButton
-          label="Vue3"
+          label="Restaurants"
           iconSource={require('../assets/images/restaurant.png')}
           onPress={handlePress3}
           style={styles.buttonSpacing}
@@ -309,14 +309,14 @@ const Vue0 = ({ navigation }) => {
 
         <View style={styles.buttonGroup}>
         <MyButton
-          label="Vue4"
+          label="Recettes"
           iconSource={require('../assets/images/recette.png')}
           onPress={handlePress4}
           style={styles.buttonSpacing}
         />
 
         <MyButton
-          label="Vue1"
+          label="Contact"
           iconSource={require('../assets/images/tourteau.png')} 
           onPress={handlePress}
           style={styles.buttonSpacing}

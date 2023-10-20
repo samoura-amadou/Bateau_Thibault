@@ -1,6 +1,7 @@
 import { StyleSheet, Text, ImageBackground, View } from 'react-native';
 import React from 'react';
 import MyButton from '../button/MyButton';
+import MyButton1 from '../button/noIconButton';
 
 const Vue2 = ({ navigation }) => {
   const handlePress30 = () => {
@@ -43,13 +44,13 @@ const Vue2 = ({ navigation }) => {
           </View>
 
         <View style={styles.buttonGroup}>
-          <MyButton
+          <MyButton1
             label="Bistro des Gascons"
             onPress={handlePress30}
             style={styles.fullWidthButton}
           />
 
-          <MyButton
+          <MyButton1
             label="Les fous de l'île"
             onPress={handlePress31}
             style={styles.fullWidthButton}
@@ -57,14 +58,14 @@ const Vue2 = ({ navigation }) => {
         </View>
 
         <View style={styles.buttonGroup}>
-          <MyButton
+          <MyButton1
             label="Bistrot Landais"
             labelFontSize={10}
             onPress={handlePress32}
             style={styles.fullWidthButton}
           />
 
-          <MyButton
+          <MyButton1
             label="Villa 9-Trois"
             onPress={handlePress33}
             style={styles.fullWidthButton}
@@ -72,13 +73,13 @@ const Vue2 = ({ navigation }) => {
         </View>
 
         <View style={styles.buttonGroup}>
-          <MyButton
+          <MyButton1
             label="Bistro du Sommelier"
             onPress={handlePress34}
             style={styles.fullWidthButton}
           />
 
-          <MyButton
+          <MyButton1
             label="Devenez partenaire!"
             onPress={handlePress1}
            // style={styles.fullWidthButton}
