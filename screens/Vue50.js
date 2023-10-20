@@ -3,13 +3,14 @@ import { Pressable, StyleSheet, Text, ImageBackground, View } from 'react-native
 import MyButton from '../button/MyButton';
 import productsData from '../data/poissons.json'; // Remplacez 'votreFichier.json' par le chemin réel vers votre fichier JSON
 import Navbar from '../navebar/navbar';
+import MyButton1 from '../button/MyButton1';
 
 const Vue50 = ({ navigation }) => {
   const products = productsData;
 
   const renderProductButtons = () => {
     return products.map((product, index) => (
-      <MyButton
+      <MyButton1
         key={index}
         label={`${product.name}       ${product.price} €`}
         iconSource={require('../assets/images/poulpe.png')} // Change this to the correct icon source

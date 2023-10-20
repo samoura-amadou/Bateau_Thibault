@@ -3,6 +3,7 @@
 import { Pressable, StyleSheet, Text, ImageBackground, View } from 'react-native';
 import React from 'react';
 import MyButton from '../button/MyButton';
+import MyButton1 from '../button/MyButton1';
 const Vue0 = ({ navigation }) => {
   
   const handlePress50 = () => {
@@ -38,21 +39,16 @@ const Vue0 = ({ navigation }) => {
       <View style={styles.container}>
           <Text style={styles.text}>Choisissez vos produits</Text>
           <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
-          <Text> </Text>
 
-          <MyButton
+
+          <MyButton1
             label="Poissons"
             iconSource={require('../assets/images/poulpe.png')}
             onPress={handlePress50}
-            style={styles.buttonSpacing}
+            style={[styles.buttonSpacing, styles.button1]}
           />
 
-          <MyButton
+          <MyButton1
             label="Coquillages"
             iconSource={require('../assets/images/poulpe.png')}
             onPress={handlePress51}
@@ -60,14 +56,14 @@ const Vue0 = ({ navigation }) => {
           />
 
           
-          <MyButton
+          <MyButton1
             label="Crustacés"
             iconSource={require('../assets/images/poulpe.png')}
             onPress={handlePress52}
             style={styles.buttonSpacing}
           />
 
-          <MyButton
+          <MyButton1
             label="Promotions"
             iconSource={require('../assets/images/poulpe.png')} 
             onPress={handlePress53}
@@ -85,7 +81,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    width: '110%',
+    width: '100%',
   },
   text: {
     fontSize: 20,
@@ -105,14 +101,12 @@ const styles = StyleSheet.create({
     marginVertical:10,
     width:'100%', // Espace entre les groupes de boutons
   },
-  fullWidthButton: {
-    width: '100%', // Le bouton occupera 100% de la largeur
-  },
+
   buttonSpacing: {
     marginVertical: 5,
     width: '100%',
   },
   button1:{
-    width: '110%',
+    height: '15vh',
   }
 });

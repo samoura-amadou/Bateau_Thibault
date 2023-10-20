@@ -245,6 +245,7 @@
 import { Pressable, StyleSheet, Text, ImageBackground, View } from 'react-native';
 import React from 'react';
 import MyButton from '../button/MyButton';
+import MyButton1 from '../button/MyButton1';
 const Vue0 = ({ navigation }) => {
   const handlePress = () => {
     navigation.navigate('Vue1');
@@ -266,6 +267,11 @@ const Vue0 = ({ navigation }) => {
     navigation.navigate('Vue5');
   }
 
+  const handlePress0 = () => {
+    navigation.navigate('Vue5');
+  };
+
+
   return (
     <ImageBackground
       source={require('../assets/images/background.png')}
@@ -277,11 +283,11 @@ const Vue0 = ({ navigation }) => {
         <Text style={styles.text}>Je m'appelle Thibault</Text>
 
         <View style={styles.button1}>
-        <MyButton
-          label="Vue1"
+        <MyButton1
+          label="Vue5"
           iconSource={require('../assets/images/poisson.png')}
-          onPress={handlePress}
-          style={[styles.fullWidthButton, styles.button1]}
+          onPress={handlePress0}
+          style={[styles.button1]}
         />
         </View>
 
@@ -310,9 +316,9 @@ const Vue0 = ({ navigation }) => {
         />
 
         <MyButton
-          label="Vue5"
+          label="Vue1"
           iconSource={require('../assets/images/tourteau.png')} 
-          onPress={handlePress5}
+          onPress={handlePress}
           style={styles.buttonSpacing}
         />
         </View>
@@ -331,9 +337,10 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   text: {
+    fontFamily: 'italic',
     fontSize: 20,
-    fontWeight: 'bold',
-    color: 'blue',
+    fontStyle: 'italic',
+    color: 'white',
     justifyContent: 'center',
   },
   imageBackground: {
@@ -355,6 +362,9 @@ const styles = StyleSheet.create({
     marginVertical: 5,
   },
   button1:{
-    width: '110%',
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'center',
+    marginTop: "40vw",
   }
 });

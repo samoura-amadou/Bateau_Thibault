@@ -32,7 +32,7 @@ const Vue2 = ({ navigation }) => {
     >
       <View style={styles.container}>
         <View style={styles.imageContainer}>
-            <Text style={styles.styletext1}>Nos bateau partenaires</Text>
+            <Text style={styles.styletext1}>Nos bateaux partenaires</Text>
             <Text style={styles.styletext2}>06.63.99.99.78</Text>
             <Text style={styles.styletext2}>lebateaudethibault@gmail.com</Text>
             <Text style={styles.styletext2}>www.facebook/lebateaudethibault</Text>
@@ -94,15 +94,30 @@ const Vue2 = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 2,
+    flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
     width: '100%',
   },
   text: {
+    fontFamily: 'italic',
     fontSize: 20,
-    fontWeight: 'bold',
-    color: 'blue',
+    fontStyle: 'italic',
+    color: 'white',
+    justifyContent: 'center',
+  },
+  styletext1:{
+    color: 'white',
+    fontFamily: "italic",
+    fontSize: 30,
+    paddingBottom: '10vh',
+    fontStyle:'italic'
+  },
+  styletext2:{
+    color: 'grey',
+    fontFamily: "italic",
+    textAlign: 'center',
+    lineHeight: 20,
   },
   imageBackground: {
     flex: 1,
@@ -110,34 +125,24 @@ const styles = StyleSheet.create({
     height: '100%',
   },
   buttonGroup: {
-    flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center',
+    flexDirection: 'row', // Affiche les boutons en ligne horizontalement
+    justifyContent: 'center', // Centre les boutons horizontalement
+    alignItems: 'center', // Centre les boutons verticalement
+    marginVertical:10,
+    width:'68%', // Espace entre les groupes de boutons
+  },
+  fullWidthButton: {
+    width: '100%', // Le bouton occupera 100% de la largeur
+  },
+  buttonSpacing: {
     marginVertical: 5,
   },
-  styletext1:{
-    color: 'white',
-    // fontFamily: 'tattoo-script',
-    fontFamily: "italic",
-    fontSize: 30,
-    paddingBottom: 20,
-  },
-  imageContainer: {
-    marginTop: '0px',
-    flex: 1,
-    justifyContent: 'flex-end',
-    width: '80%',
-  },
-//   fullWidthButton: {
-//     width: '100%',
-//   },
-    // buttonGroup: {
-    //     flexDirection: 'row', // Aligne l'icône et le texte horizontalement
-    //     alignItems: 'center', // Centre l'icône et le texte verticalement
-    //     padding: 10,
-    //     margin: 10,
-    //     width: '100%',
-    // },
+  button1:{
+    width: '100%',
+    display: 'flex',
+    justifyContent: 'center',
+    marginTop: "40vw",
+  }
 });
 
 export default Vue2;

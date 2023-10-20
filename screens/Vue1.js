@@ -20,7 +20,7 @@ const Vue1 = ({ navigation }) => {
 
         {/* Conteneur pour l'image en haut */}
         <View style={styles.imageContainer}>
-          <Text style={styles.styletext1}>Le bateau de Thibault</Text>
+          <Text style={styles.headerText}>Le bateau de Thibault</Text>
           <Image source={require('../assets/images/TIG.png')} style={styles.image} />
           <Text style={styles.styletext2}>06.63.99.99.78</Text>
           <Text style={styles.styletext2}>lebateaudethibault@gmail.com</Text>
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     height: '20%',
   },
   imageContainer: {
-    marginTop: '10px',
+    marginTop: '25vh',
     flex: 1,
     alignItems: 'center',
     justifyContent: 'flex-end',
@@ -68,10 +68,17 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 10,
-    fontWeight: 'bold',
+    fontWeight: '',
     color: 'grey',
     fontFamily: 'italic',
   },
+  headerText: {
+    fontFamily:'italic',
+    fontSize: 30,
+    color: 'white',
+    fontStyle: 'italic',
+    marginBottom: '5vh',
+    },
   description: {
     fontSize: 16,
     color: 'black',

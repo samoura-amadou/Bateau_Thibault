@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     height: '20%',
   },
   imageContainer: {
-    marginTop: '10px',
+    marginTop: '25vh',
     flex: 1,
     alignItems: 'center',
     justifyContent: 'flex-end',
@@ -68,10 +68,17 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 10,
-    fontWeight: 'bold',
+    fontWeight: '',
     color: 'grey',
     fontFamily: 'italic',
   },
+  headerText: {
+    fontFamily:'italic',
+    fontSize: 30,
+    color: 'white',
+    fontStyle: 'italic',
+    marginBottom: '5vh',
+    },
   description: {
     fontSize: 16,
     color: 'black',
