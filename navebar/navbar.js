@@ -21,6 +21,10 @@ export default function Navbar() {
             source={require('../assets/images/homeLogo.png')}
             style={styles.iconImage}
             onProgress={() => console.log('onProgress')}
+            // bouton de rédirection vers la page d'accueil
+            handlePress={() => {
+                navigation.navigate('Vue1');
+              }}
         />
         <Image
         source={require('../assets/images/cartLogo.png')}
