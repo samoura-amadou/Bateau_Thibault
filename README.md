@@ -1,8 +1,11 @@
 ﻿# Bateau_Thibault : 
-MEMBRES : 
+
+# React_Le-bateau-de-Thibault: 
 
 
-SAMOURA Amadou : role devops1
-Lateb Melissa : role devops2
-Nathan Benais: rôle devops3
+LES MEMBRES DE GROUPE: 
 
+Amadou SAMOURA 
+Nathan BENAIS
+Lateb MELISSA
+Aaron KALINBGA
