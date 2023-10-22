@@ -70,6 +70,7 @@ const Vue0 = ({ navigation }) => {
             style={styles.buttonSpacing}
           />
       </View>
+      
     </ImageBackground>
   );
 }
