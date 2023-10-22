@@ -32,7 +32,6 @@ const Vue0 = ({ navigation }) => {
           <Text style={styles.text}>Choisissez vos produits</Text>
           <Text> </Text>
 
-
           <MyButton1
             label="Poissons"
             iconSource={require('../assets/images/poulpe.png')}
