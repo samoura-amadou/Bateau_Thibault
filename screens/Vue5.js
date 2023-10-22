@@ -2,7 +2,6 @@
 
 import { Pressable, StyleSheet, Text, ImageBackground, View } from 'react-native';
 import React from 'react';
-import MyButton from '../button/MyButton';
 import MyButton1 from '../button/MyButton1';
 const Vue0 = ({ navigation }) => {
   
@@ -22,13 +21,6 @@ const Vue0 = ({ navigation }) => {
     navigation.navigate('Vue53');
   }
 
-  // const handlePress54 = () => {
-  //   navigation.navigate('Vue54');
-  // }
-
-  // const handlePress5 = () => {
-  //   navigation.navigate('Vue5');
-  // }
 
   return (
     <ImageBackground
